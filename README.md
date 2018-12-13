@@ -1,7 +1,7 @@
 # class_data
 
 ## Brief
-- I need to collect data for everyone for everyone.
+- I need to collect data for everyone.
 - Data must include: name, lastname, date of birth.
 - Data  must be in a table.
 - Should be able to add whatever info is given and remove people as well.
