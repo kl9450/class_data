@@ -18,3 +18,5 @@
 - CSS
 - JavaScript
 - JQuery
+
+- Link: https://kl9450.github.io/class_data/index.html
