@@ -6,40 +6,53 @@
     <title>class data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-    
 </head>
 <body>
-   <table class="tbl">
+    <form>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="surname" placeholder="Surname">
+        <input type="text" id="DOB" placeholder="D.O.B">
+        <input type="button" id="add" class="btn" value="Add Row">
+    </form>    
+    <!-- <button type="button" id="add" class="btn">Add person</button> -->
+    <table class="tbl">
        <tr>
-           <th>Name</th>
+            <th>Select</th>
+            <th>Name</th>
            <th>Second Name</th>
            <th>D.O.B</th>
         </tr>
         
         <tr>
+            <td><input type="checkbox" name="record"></td>
             <td>Plamedi</td>
             <td>Luyeye</td>
             <td>09 June 1997</td>
         </tr>
 
         <tr>
+            <td><input type="checkbox" name="record"></td>
             <td>Abdul</td>
             <td>Gallow</td>
             <td>09 December 1999</td>
         </tr>
 
-        <tr>
+        <tr class="nat">
+            <td><input type="checkbox" name="record"></td>
             <td>Natalie</td>
             <td>Daniels</td>
             <td>10 December 1998</td>
         </tr>
 
         <tr>
+            <td><input type="checkbox" name="record"></td>  
             <td>Kudakwashe</td>
             <td>Mukombachoto</td>
             <td>24 september 1998</td>
         </tr>
    </table>
-   <script src="js/main.js"></script> 
+   <button type="button" id="remove" class="btn">Delete</button> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

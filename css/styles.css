@@ -1,9 +1,24 @@
-body {
-    
+table{
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
 }
 table, th, td {
     border: 1px solid black;
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
+}
+
+.nat {
+    color: red;
+    background-color: yellow;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form input, button {
+    padding: 5px;
 }
